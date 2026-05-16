@@ -5,12 +5,13 @@
 go install github.com/saniak-hub/gator
 ```
 Requiremets 
-1. Go and Postgresql install in your working environment
+1. Go and Postgresql installed in your working environment
 
 ## Build the program
 ```bash
 go build
 ```
+This will generate a executable called gator
 
 
 ## To register
