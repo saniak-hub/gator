@@ -20,6 +20,14 @@ Gator is a command-line tool that helps you aggregate and manage RSS feeds from 
 
 - **Go** 1.16 or higher
 - **PostgreSQL** - Must be installed and running in your working environment
+- .gatorconfig.json file in the home directory
+  ```json
+  {
+  "db_url": "<postgres connection string>"
+  example: postgres://user:password@localhost:port/db_name?sslmode=disable
+  }
+  ```
+  
 
 ## Installation
 
